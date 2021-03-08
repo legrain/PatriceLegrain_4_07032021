@@ -680,6 +680,10 @@ p {
     font-size: 0.95em;
 }
 
+q{
+    font-weight: bolder;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
