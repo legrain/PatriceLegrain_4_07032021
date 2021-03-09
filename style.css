@@ -682,6 +682,11 @@ p {
     font-size: 0.95em;
 }
 
+footer p{
+    color: #000000!important;
+    
+}
+
 q{
     font-weight: bolder;
 }
@@ -706,8 +711,10 @@ q{
 }
 
 .social {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -743,6 +750,7 @@ h4 {
 
 .white {
     color: #000000!important;
+    margin-bottom: 30px;
 }
 
 .portfolio-thumb {
@@ -782,7 +790,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #222121!important;
 }
 
 .btn-atomic-tangerine {
