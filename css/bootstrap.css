@@ -8013,6 +8013,10 @@ button.close {
     .hidden-lg {
         display: none !important
     }
+    
+    p{
+        font-size: 1.4em!important;
+    }
 }
 
 .visible-print {
