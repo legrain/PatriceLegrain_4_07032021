@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -693,6 +693,13 @@ footer p{
 
 q{
     font-weight: bolder;
+    color: #000000;
+    font-size: 0.95em;
+}
+
+em{
+    color: #000000;
+    font-size: 0.85em;
 }
 
 .tight-width-whitespace {
@@ -880,6 +887,14 @@ h4 {
     p{
         font-size: 1.2em;
     }
+
+    q{
+        font-size: 1.2em;
+    }
+
+    em{
+        font-size: 1em;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -889,6 +904,14 @@ h4 {
 
     p{
         font-size: 1.4em;
+    }
+
+    q{
+        font-size: 1.4em;
+    }
+
+    em{
+        font-size: 1.2em;
     }
 }
 

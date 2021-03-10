@@ -8018,6 +8018,14 @@ button.close {
         font-size: 1.5em!important;
     }
 
+    q{
+        font-size: 1.5em;
+    }
+
+    em{
+        font-size: 1.3em;
+    }
+
     .label{
         font-size: 1.5em!important;
     }
