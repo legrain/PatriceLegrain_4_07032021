@@ -886,7 +886,7 @@ li{
     }
 
     .navbar-brand img{
-        height: auto;
+        height: 60px;
         width: auto;
     }
 }
