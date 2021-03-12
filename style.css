@@ -907,7 +907,13 @@ li{
     }
 }
 
-@media only screen and (min-device-width: 1367px){
+@media only screen and (min-device-width: 1367px) and (max-device-width: 2666px){
+    .navbar-brand img{
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 2667px) and (max-device-width: 5000px){
     .navbar-brand img{
         height: auto;
     }
