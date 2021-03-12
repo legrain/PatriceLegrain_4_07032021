@@ -234,6 +234,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    font-size: 1.6em;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -252,6 +253,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -875,7 +877,7 @@ li{
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -885,6 +887,7 @@ li{
 
     .navbar-brand img{
         height: auto;
+        width: auto;
     }
 }
 
@@ -909,12 +912,14 @@ li{
 @media only screen and (min-device-width: 1367px) and (max-device-width: 2666px){
     .navbar-brand img{
         height: auto;
+        width: auto;
     }
 }
 
 @media only screen and (min-device-width: 2667px) and (max-device-width: 5000px){
     .navbar-brand img{
         height: auto;
+        width: auto;
     }
 }
 
@@ -925,6 +930,7 @@ li{
 
     .navbar-brand img{
         height: auto;
+        width: auto;
     }
 
     p{
