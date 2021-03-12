@@ -7943,10 +7943,6 @@ button.close {
     .visible-md-block {
         display: block !important
     }
-
-    .navbar-brand img{
-        max-height: 300px;
-    }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -7964,9 +7960,6 @@ button.close {
 @media (min-width:1200px) {
     .visible-lg {
         display: block !important
-    }
-    .navbar-brand img{
-        max-height: 400px;
     }
     table.visible-lg {
         display: table !important
