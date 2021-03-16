@@ -520,8 +520,6 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -535,7 +533,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 7px;
     opacity: 1;
 }
 
@@ -738,6 +736,9 @@ em{
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
 }
 
 h3 {
@@ -797,10 +798,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
