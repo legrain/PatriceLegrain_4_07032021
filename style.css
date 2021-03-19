@@ -309,7 +309,7 @@ img.center-block.image-resize-mode {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline;
-    width: auto;
+    width: 220px;
     max-height: 50px;
 }
 
