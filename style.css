@@ -41,6 +41,11 @@ a:hover {
     position: relative;
 }
 
+img.center-block.image-resize-mode {
+    width: 100px;
+    height: 100px;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -305,6 +310,7 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
     width: auto;
+    max-height: 50px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -887,7 +893,6 @@ li{
     }
 
     .navbar-brand img{
-        height: 60px;
         width: auto;
     }
 }
@@ -932,10 +937,7 @@ li{
 }
 
 @media only screen and (min-device-width: 2667px) and (max-device-width: 5000px){
-    .navbar-brand img{
-        height: auto;
-        width: auto;
-    }
+    
 
     .bg-banniere{
         background-size: 100%;
@@ -956,7 +958,6 @@ li{
     }
 
     .navbar-brand img{
-        height: 70px;
         width: auto;
     }
 
@@ -1075,7 +1076,6 @@ li{
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
