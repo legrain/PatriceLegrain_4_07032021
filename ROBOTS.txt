@@ -1,0 +1,6 @@
+# fichier pour les robots du site https://legrain.github.io/PatriceLegrain_4_07032021/index.html
+User-Agent: * (autorise l�acc�s � tous les robots )
+Disallow: /intranet/ (interdit l�exploration du dossier intranet)
+Disallow: /login.php (interdit l�exploration de l�url https://legrain.github.io/PatriceLegrain_4_07032021/index.html/login.php)
+Allow: /*.css?* (autorise l�acc�s � toutes les ressources css)
+Sitemap: https://legrain.github.io/PatriceLegrain_4_07032021/index.html/sitemap_index.xml (lien vers le sitemap pour le r�f�rencement)

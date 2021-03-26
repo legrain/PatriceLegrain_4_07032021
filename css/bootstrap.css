@@ -306,7 +306,9 @@ th {
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
-    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+    font-display: swap;
+    font-display: optional
 }
 
 .glyphicon {
@@ -2010,11 +2012,6 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -2322,13 +2319,13 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 100%
     }
     .col-sm-5 {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 25%
     }
     .col-sm-3 {
         width: 25%
@@ -3088,7 +3085,7 @@ legend {
 
 label {
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 5px;
     font-weight: 700
 }
@@ -7682,7 +7679,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -8017,6 +8013,22 @@ button.close {
 @media (min-width:1200px) {
     .hidden-lg {
         display: none !important
+    }
+    
+    p{
+        font-size: 1.5em!important;
+    }
+
+    q{
+        font-size: 1.5em;
+    }
+
+    em{
+        font-size: 1.3em;
+    }
+
+    .label{
+        font-size: 1.5em!important;
     }
 }
 
