@@ -1015,6 +1015,9 @@ li{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1142,8 +1145,3 @@ li{
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
