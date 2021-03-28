@@ -894,6 +894,15 @@ li{
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
+    .portfolio-row{
+        display: flex;
+        max-width: 100%;
+    }
+    .med-width-whitespace{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     
 }
@@ -903,7 +912,14 @@ li{
         background-attachment: scroll;
     }
 
-  
+    .portfolio-row{
+        display: flex;
+        max-width: 100%;
+    }
+    .med-width-whitespace{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     p{
         font-size: 1.2em;
@@ -924,6 +940,15 @@ li{
     .bg-banniere{
         background-size: 100%;
     }
+    
+    .portfolio-row{
+        display: flex;
+        max-width: 100%;
+    }
+    .med-width-whitespace{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     q{
         font-size: 1.4em;
@@ -941,6 +966,15 @@ li{
         background-size: 100%;
     }
 
+    .portfolio-row{
+        display: flex;
+        max-width: 100%;
+    }
+    .med-width-whitespace{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
     q{
         font-size: 1.4em;
     }
@@ -955,7 +989,14 @@ li{
         background-attachment: scroll;
     }
 
-
+    .portfolio-row{
+        display: flex;
+        max-width: 100%;
+    }
+    .med-width-whitespace{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     p{
         font-size: 1.4em;
