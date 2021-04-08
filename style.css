@@ -368,7 +368,11 @@ img.center-block.image-resize-mode {
     z-index: 2;
 }
 
-span.fa {
+div.fa {
+    font-size: 2.5em;
+}
+
+span.fa{
     font-size: 2.5em;
 }
 
