@@ -29,14 +29,6 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-#formulaire h2{
-    font-size: 18px;
-}
-
-cite{
-    color: #000000;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -274,6 +266,14 @@ img.center-block.image-resize-mode {
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
+}
+
+#formulaire h2{
+    font-size: 18px;
+}
+
+cite{
+    color: #000000;
 }
 
 .voffset {
