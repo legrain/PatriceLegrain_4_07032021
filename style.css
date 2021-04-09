@@ -29,6 +29,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+#formulaire h2{
+    font-size: 18px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
